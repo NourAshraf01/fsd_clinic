@@ -1,0 +1,141 @@
+
+/* h1 {
+  color: #c24d2c;
+} */
+
+/* .firstsection h2 {
+  margin-left: 200px;
+  margin-top: 40px;
+  font-weight: 400;
+} */
+
+
+.firstsection h2{
+  padding-left: 65px;
+}
+
+section.firstsection{
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.firstsection .contents {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right:100px ;
+}
+.firstsection .contents .content {
+  text-align: center;
+  margin-left: 10rem;
+}
+.firstsection .contents .content h4 {
+  text-align: left;
+  margin-top: 5rem;
+}
+.firstsection .contents .content h1 {
+  font-size: 50px;
+  font-weight: 400;
+  width: 25rem;
+  text-align: left;
+}
+.firstsection .contents .content p {
+  font-size: x-small;
+  font-weight: 600;
+  margin: 20px 0;
+  width: 25rem;
+  text-align: left;
+}
+.firstsection .contents .content button {
+  padding: 0.8rem 3rem;
+  background-color: #1a2639;
+  color: #c24d2c;
+  text-align: center;
+  border-style: none;
+  font-weight: 700;
+  width: fit-content;
+  padding: 1rem;
+}
+.firstsection .contents img {
+  width: 25rem;
+  height: 30rem;
+  border-radius: 15%;
+  box-shadow: 100px 20px 5px 12px #d9dad7;
+}
+.secondsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+.secondsection .contents {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.secondsection .contents .left .content ul {
+  display: flex;
+  margin: 25px;
+  list-style: none;
+}
+.secondsection .contents .left .content li {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  margin: 0 50px;
+  font-weight: 700;
+}
+.secondsection .contents .left .content hr {
+  margin-top: 30px;
+  background-color: #1a2639;
+  color: #c24d2c;
+  padding: 2px;
+}
+.secondsection .contents .left .content .message hr {
+  margin-top: 150px;
+  width: 35rem;
+  background-color: #1a2639;
+  color: #c24d2c;
+  padding: 2px;
+}
+.secondsection .contents .left .content button {
+  background-color: #1a2639;
+  color: #c24d2c;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  margin-left: 90%;
+  border: none;
+  border-radius: 10px;
+}
+.secondsection .center {
+  border-left: 2px solid#c24d2c;
+  height: 600;
+}
+.secondsection .right {
+  display: flex;
+  flex-direction: column;
+}
+.secondsection .right .content {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.secondsection{
+  min-height: 50vh;
+}
+
+.thirdsection {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdsection img {
+  width: 50rem;
+  border-radius: 25px;
+}
+

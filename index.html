@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FS&D Clinic</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="images/logo_upscaled.png" class="App-logo" alt="logo" />
+      <div class="menu">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="services.html">Services</a></p>
+        <p><a href="aboutUs.html">About Us</a></p>
+        <p>Pages <i class="fa-solid fa-caret-down"></i></p>
+        <p>Shop <i class="fa-solid fa-caret-down"></i></p>
+        <p>Contact Us</p>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="content">
+          <div class="flex-col home-wrapper">
+            <div
+              class="flex-col h-full gap-[20px]"
+              style="height: 100%; gap: 20px"
+            >
+              <div class="flex-col" style="width: fit-content">
+                <h1 style="font-size: inherit">Love the skin you're in.</h1>
+                <h1 class="text-second">Nurture it with care.</h1>
+              </div>
+              <span class="home-span"
+                >Thank you for choosing us as your dermatology provider. We look
+                forward to serving you and your family's dermatology
+                needs.</span
+              >
+              <div class="btns-wrapper">
+                <div class="w-[12rem]">
+                  <button class="btn">Sign Up</button>
+                </div>
+                <div class="w-[12rem]">
+                  <button class="btn">Sign In</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="home-cards-wrapper">
+              <div class="home-card expert bg-shade">
+                <span>Experts</span>
+              </div>
+              <div class="home-card safety bg-shade">
+                <span>Safety</span>
+              </div>
+              <div class="home-card care bg-shade">
+                <span>Personal Attention</span>
+              </div>
+              <div class="home-card choice bg-shade">
+                <span>Choice</span>
+              </div>
+              <div class="home-card privacy bg-shade">
+                <span>Privacy</span>
+              </div>
+              <HomeCard text="Experts" photo="experts.jpg" />
+              <HomeCard text="Safety" photo="safety.jpg" />
+              <HomeCard text="Personal Attention" photo="care.jpg" />
+              <HomeCard text="Choice" photo="choice.jpg" />
+              <HomeCard text="Privacy" photo="privacy.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="content">
+          <div class="services-wrapper flex-col">
+            <div
+              class="services-header-wrapper flex-col"
+              style="align-items: center; gap: 10px; padding: 20px"
+            >
+              <span>SERVICES</span>
+              <h1 style="font-weight: 700; font-size: 3rem">Our Services</h1>
+              <span style="max-width: 50rem; text-align: center"
+                >We offer a full range of services, including medical, surgical,
+                and cosmetic dermatology, to treat conditions such as acne,
+                rosacea, psoriasis, eczema, skin cancer, and more.</span
+              >
+            </div>
+            <div class="preview-cards-wrapper grid-equal-width">
+              <div class="preview-card card-shadow">
+                <div class="preview-card-img">
+                  <img class="card-shadow" src="images/Laser.jpg" alt="" />
+                </div>
+                <div class="preview-card-text flex-col">
+                  <span>Laser</span>
+                  <span
+                    class="cursor-pointer hover:underline transition-all duration-300 ease-in-out"
+                    >Learn More</span
+                  >
+                </div>
+              </div>
+              <div class="preview-card card-shadow">
+                <div class="preview-card-img">
+                  <img class="card-shadow" src="images/Inject.jpg" alt="" />
+                </div>
+                <div class="preview-card-text flex-col">
+                  <span>Injectables</span>
+                  <span
+                    class="cursor-pointer hover:underline transition-all duration-300 ease-in-out"
+                    >Learn More</span
+                  >
+                </div>
+              </div>
+              <div class="preview-card card-shadow">
+                <div class="preview-card-img">
+                  <img
+                    class="card-shadow"
+                    src="images/FaceTreatment.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="preview-card-text flex-col">
+                  <span>Face Treatment</span>
+                  <span
+                    class="cursor-pointer hover:underline transition-all duration-300 ease-in-out"
+                    >Learn More</span
+                  >
+                </div>
+              </div>
+              <div class="preview-card card-shadow">
+                <div class="preview-card-img">
+                  <img class="card-shadow" src="images/manicure.jpg" alt="" />
+                </div>
+                <div class="preview-card-text flex-col">
+                  <span>Manicure</span>
+                  <span
+                    class="cursor-pointer hover:underline transition-all duration-300 ease-in-out"
+                    >Learn More</span
+                  >
+                </div>
+              </div>
+              <div class="preview-card card-shadow">
+                <div class="preview-card-img">
+                  <img
+                    class="card-shadow"
+                    src="images/coolsculpting.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="preview-card-text flex-col">
+                  <span>Coolsculpting</span>
+                  <span
+                    class="cursor-pointer hover:underline transition-all duration-300 ease-in-out"
+                    >Learn More</span
+                  >
+                </div>
+              </div>
+              <div class="preview-card card-shadow">
+                <div class="preview-card-img">
+                  <img class="card-shadow" src="images/tightning.webp" alt="" />
+                </div>
+                <div class="preview-card-text flex-col">
+                  <span>Skin Tightening</span>
+                  <span
+                    class="cursor-pointer hover:underline transition-all duration-300 ease-in-out"
+                    >Learn More</span
+                  >
+                </div>
+              </div>
+              <PreviewCard text="Injectables" img="Inject.jpg" />
+              <PreviewCard text="Face Treatment" img="Inject.jpg" />
+              <PreviewCard text="Manicure" img="manicure.jpg" />
+              <PreviewCard text="Coolsculpting" img="coolsculpting.jpg" />
+              <PreviewCard text="Skin Tightening" img="tightning.webp" />
+            </div>
+          </div>
+          <div class="gallery-wrapper flex-col">
+            <div
+              class="gallery-header-wrapper flex-col"
+              style="align-items: center; gap: 10px; padding: 20px"
+            >
+              <span>OUR GALLERY</span>
+              <h1 style="font-weight: 700; font-size: 3rem">Before & After</h1>
+              <span style="max-width: 50rem; text-align: center"
+                >We offer a full range of services, including medical, surgical,
+                and cosmetic dermatology, to treat conditions such as acne,
+                rosacea, psoriasis, eczema, skin cancer, and more.</span
+              >
+            </div>
+            <div class="preview-imgs">
+              <div class="small-preview img-preview left card-shadow"></div>
+              <div class="main-preview img-preview card-shadow"></div>
+              <div class="small-preview img-preview right card-shadow"></div>
+            </div>
+
+            <div>
+              <button class="btn gallery">Visit Our Gallery</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer">
+      <div class="items">
+        <div class="seg">
+          <h3>Skin Treatments</h3>
+          <p>Rosacea</p>
+          <p>Eczema</p>
+          <p>Skin</p>
+          <p>Cancer</p>
+          <p>Psoriasis</p>
+          <p>Acne</p>
+        </div>
+        <div class="seg">
+          <h3>About Us</h3>
+          <p>About Clinic</p>
+          <p>Location</p>
+          <p>Contact Us</p>
+          <p>Booking</p>
+          <p>Prices</p>
+        </div>
+        <div class="seg">
+          <h3>Help & Support</h3>
+          <p>Help Center</p>
+          <p>Product</p>
+          <p>FAQ</p>
+          <p>Service Status</p>
+        </div>
+      </div>
+      <img src="images/logo_upscaled.png" alt="" />
+    </div>
+    <div class="stayConnected">
+      <h4>Stay Connected</h4>
+      <i class="fa-brands fa-instagram fa-2xl"></i>
+      <i class="fa-brands fa-youtube fa-2xl"></i>
+      <i class="fa-brands fa-facebook fa-2xl"></i>
+      <i class="fa-brands fa-telegram fa-2xl"></i>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: 'Roboto';
+}
+
+.App-logo {
+  max-height: 100%;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf');
+}
+
+:root {
+  --first-color: #ececec;
+  --second-color: #9fd3c7;
+  --third-color: #385170;
+  --fourth-color: #142d4c;
+  font-size: 16px;
+}
+
+
+.header {
+  height: 100px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background: var(--first-color);
+  color: var(--fourth-color);
+  place-content: space-between;
+  padding: 0 5%;
+  position: sticky;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.4rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer{
+  width: 100%;
+ background: var(--first-color);
+ margin: auto;
+ padding: 10px;
+ display: flex;
+ box-sizing: border-box;
+}
+
+.footer .items{
+ flex: 1;
+ display: flex;
+ font-size: 1.5rem;
+ justify-content: space-around;
+}
+
+.footer img{
+ height: 120px;
+ justify-self: end;
+ align-self: flex-end;
+}
+
+.stayConnected{
+ background: var(--second-color);
+ display: flex;
+ height: fit-content;
+ align-items: center;
+ padding: 20px;
+ justify-content: end;
+ gap: 20px;
+ font-size: 1rem;
+ color: var(--first-color);
+}
+
+.stayConnected h4{
+ font-size: 1.6rem; 
+ padding: 0 20px;
+}
+
+.footer h3{
+ font-size: inherit;
+}
+
+
+
+
+h1 {
+  color: #c24d2c;
+}
+
+.firstsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.firstsection h1 {
+  margin: 30px 0;
+  font-size: 50px;
+  font-weight: 400;
+}
+.firstsection img {
+  border-radius: 25px;
+}
+.firstsection .content {
+  position: absolute;
+  bottom: 15rem;
+  left: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstsection .content p {
+  display: flex;
+  margin: 25px 0;
+}
+.secondsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.secondsection .leftcontent {
+  display: flex;
+  flex-direction: column;
+}
+.secondsection .leftcontent h1 {
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.secondsection .leftcontent p {
+  padding-left: 10px;
+}
+.secondsection .leftcontent .cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.secondsection .leftcontent .cards .card {
+  display: flex;
+  flex-direction: column;
+}
+.secondsection .leftcontent .cards .card p {
+  background-color: #d9dad7;
+  color: #c24d2c;
+  align-items: center;
+  font-weight: 700;
+  padding: 35px;
+  border-radius: 100%;
+}
+.secondsection .leftcontent .cards .card .p {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secondsection .rightcontent {
+  position: relative;
+  display: flex;
+  bottom: 5rem;
+  right: 10rem;
+}
+.secondsection .rightcontent .cards {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.secondsection .rightcontent .cards .card img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #c24d2c;
+}
+.thirdsection {
+  display: flex;
+  flex-direction: column;
+}
+.thirdsection .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdsection .products {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.thirdsection .products .product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdsection .products .product img {
+  width: 350px;
+}
+.thirdsection .products .product h5 {
+  font-size: 20px;
+}
+.thirdsection .products .product p {
+  max-width: 180px;
+  margin: 5px 0;
+  text-align: center;
+}
+.thirdsection .buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.thirdsection .buttons button {
+  padding: 10px 50px;
+  margin: 15px;
+  background-color: #1a2639;
+  color: #c24d2c;
+  border-style: none;
+}
+.fourthsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+.fourthsection img {
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+}
+.fourthsection .center {
+  display: flex;
+  flex-direction: column;
+}
+.fourthsection .center img {
+  width: auto;
+  height: auto;
+}
+.fourthsection .center button {
+  background-color: #1a2639;
+  color: #c24d2c;
+  text-align: center;
+  width: 80px;
+  padding: 0.5rem 5rem;
+}
